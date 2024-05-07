@@ -2,7 +2,7 @@ import { Client } from 'pg';
 
 const client = new Client({
 	connectionString:
-		'postgresql://week10DB_owner:5kCa8hHeMuym@ep-frosty-glitter-a5ovjks9.us-east-2.aws.neon.tech/week10DB?sslmode=require',
+		'YOURDATABASE_URL',
 });
 
 client.connect();
