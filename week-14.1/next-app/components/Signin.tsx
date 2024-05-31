@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 
 const SignIn = () => {
@@ -6,8 +7,10 @@ const SignIn = () => {
 	}
 	return (
 		<div>
-			<input type='text' placeholder='username' /><input/>
-			<input type='text' placeholder='password' /><input/>
+			<input type='text' placeholder='username' />
+			<input />
+			<input type='text' placeholder='password' />
+			<input />
 			<button onClick={handleSubmit}>submit</button>
 		</div>
 	);
