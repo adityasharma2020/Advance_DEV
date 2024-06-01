@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+"./my-button": "./src/my-button.tsx",
+"./input-box": "./src/input-box.tsx",
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
     "./code": "./src/code.tsx"
